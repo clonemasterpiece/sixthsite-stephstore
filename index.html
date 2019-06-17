@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Burgers and other fastfood stuff">
+  <meta name="keywords" content="Burgers,Bojan,Stefanovski,Food,Web Development,HTML,CSS,XML,JavaScript">
+  <meta name="author" content="Stefanovski Bojan">
+ 
+  <link rel="icon" href="img/icon.png">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.css">
+  <title>Steph Burger Store</title>
+  <style>
+  </style>
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <!-- nav  -->
+    
+    <nav class="navbar navbar-expand-lg px-4">
+      <a class="navbar-brand" href="#"><img src="img/logo.png" alt="sss"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav">
+        <span class="toggler-icon"><i class="fas fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="myNav">
+        <ul class="navbar-nav mx-auto text-capitalize">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="author.html">author</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#forma">Order</a>
+          </li>
+        </ul>
+        <div class="nav-info-items d-none d-lg-flex ">
+          <!--  info -->
+          <div class="nav-info align-items-center d-flex justify-content-between mx-lg-5">
+            <span class="info-icon mx-lg-3"><i class="fas fa-phone"></i></span>
+            <p class="mb-0">+ 381 68x xx78</p>
+          </div>
+          <!-- info -->
+          
+        </div>
+      </div>
+    </nav>
+    <!-- end  nav -->
+    <!-- banner  -->
+    <div class="container-fluid">
+      <div class="row max-height justify-content-center align-items-center">
+        <div class="col-10 mx-auto banner text-center">
+          <h1 class="text-capitalize">welcome to <strong class="banner-title-one ">Burger Land</strong></h1>
+          <a href="#store" class="btn banner-link text-uppercase my-2">Go to menu!</a>
+
+        </div>
+        
+      </div>
+    </div>
+
+
+
+
+    <!--end of  banner  -->
+  </header>
+  <!-- header -->
+  <!-- about us -->
+  <section class="about py-5" id="about">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-10 mx-auto col-md-6 my-5">
+          <h1 class="text-capitalize">about <strong class="banner-title ">us</strong></h1>
+          <p class="my-4 text-muted w-75">Welcome to our website. We are mainly producing Burger and we're spetialized in this part of food preparation. We also produce some kind of hotdogs and also a greek speciality called Gyros by the recipe of an old greek Chef. We hope you'd enjoy in everysingle bite! Bon apetite!</p>
+          <a href="#" class="btn btn-outline-secondary btn-black text-uppercase ">Explore us</a>
+
+        </div>
+        <div class="col-10 mx-auto col-md-6 align-self-center my-5">
+          <div class="about-img__container">
+            <img src="img/reklama-1.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end of about us -->
+
+
+  <!-- store -->
+  <section id="store" class="store py-5">
+    <div class="container">
+      <!--  title -->
+      <div class="row">
+        <div class="col-10 mx-auto col-sm-6 text-center">
+          <h1 class="text-capitalize">our <strong class="banner-title ">store</strong></h1>
+        </div>
+      </div>
+      <!-- end  title -->
+      <!--filter buttons -->
+      <div class="row">
+        <div class=" col-lg-8 mx-auto d-flex justify-content-around my-2 sortBtn flex-wrap">
+          <a href="#" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2" id="showAll"> all</a>
+          <a href="#" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2" data-filter="burger">Burgers</a>
+          <a href="#" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2" data-filter="hotdog">Hotdogs</a>
+          <a href="#" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2" data-filter="gyros">Gyros</a>
+          <a href="#" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2" id="sortByPrice">Sort by price</a>
+        </div>
+      </div>
+      <!-- search box -->
+      <div class="row">
+
+        <div class="col-10 mx-auto col-md-6">
+          <form>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend ">
+                <span class="input-group-text search-box" id="search-icon"><i class="fas fa-search"></i></span>
+              </div>
+              <input type="text" class="form-control" placeholder='item....' id="search-item">
+            </div>
+
+          </form>
+        </div>
+      </div>
+      <!--end filter -->
+      <!-- store  items-->
+      <div class="row" id="store-items">
+
+
+        <!-- all products-->
+        
+         
+        </div>
+        
+
+      </div>
+  </section>
+  <section id="forma">
+      <div id="formaNaslov">
+          <h2>Fill your order</h2>
+      </div>
+      <form action="#" method="GET">
+          <table id="tablicaForma">
+              <tr>
+                  <td class="prostor">Your Name</td> 
+                  <td><input type="text" name="ime" size="25" id="imeId"/></td>
+              </tr>
+              <tr>
+                  <td class="prostor" >Your adress</td> 
+                  <td><input type="text" name="adress" size="25" id="adresaId"/></td>
+              </tr>
+              <tr>
+                  <td class="prostor">Your Phone number</td> 
+                  <td><input type="text" name="number" size="25" id="phoneId"/></td>
+              </tr>
+              <tr>
+                  <td class="prostor">Food type</td>
+                  <td id="foodIspis">
+
+                  </td> 
+              </tr>
+              <tr>
+                  <td class="prostor">Additional</td>
+                  <td id="promena">
+                      <input type="radio" name="sugar" value="0"/>&nbsp;<span>Yes</span>
+                      <input type="radio" name="sugar" value="1"/>&nbsp;<span style="color:black">No</span>
+                  </td> 
+              </tr>
+              <tr id="additiveType" class="sakriven">
+                  <td class="prostor">Additives</td>
+                  <td>
+                      <input type="checkbox" name="additiveType" value="0"/>&nbsp;<span style="color:#bac6db">Mayo</span>
+                      <input type="checkbox" name="additiveType" value="1"/>&nbsp;<span style="color:brown">Ketchup</span></br>
+                      <input type="checkbox" name="additiveType" value="0"/>&nbsp;<span style="color:#5eb5e0">Pavlaka</span>&nbsp;&nbsp;&nbsp;
+                      <input type="checkbox" name="additiveType" value="0"/>&nbsp;<span style="color:crimson">Chilli</span>
+                  </td> 
+              </tr>
+              <tr>
+                  <td class="prostor"></td>
+                  <td>
+                      <input type="submit" name="dugme" value="Order" class="dugme"/>&nbsp;   
+                  </td> 
+              </tr>
+          </table>
+      </form>   
+  </section>
+  
+  <footer>
+      <!-- navbar  -->
+      
+      <nav class="navbar navbar-expand-lg px-4">
+          <a class="navbar-brand" href="#"><img src="img/logo.png" alt="sss"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav">
+            <span class="toggler-icon"><i class="fas fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="myNav">
+            <ul class="navbar-nav mx-auto text-capitalize">
+              <li class="nav-item active">
+                <a class="nav-link" href="robots.txt">robots</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="sitemap.xml">sitemap</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="documentation.pdf">doc</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="author.html">author</a>
+              </li>
+            </ul>
+            <div class="nav-info-items d-none d-lg-flex ">
+              <!-- socials -->
+              <div class="nav-info align-items-center d-flex justify-content-between mx-lg-5">
+                <span class="info-icon mx-lg-3"><a class="navbar-socials" href="http://facebook.com"><i class="fab fa-facebook-f"></i></a></span>
+                <span class="info-icon mx-lg-3"><a class="navbar-socials" href="http://instagram.com"><i class="fab fa-instagram"></i></a></span>
+                <span class="info-icon mx-lg-3"><a class="navbar-socials" href="http://google.com"><i class="fab fa-google-plus"></i></a></span>
+              </div>
+
+              <!-- end socials-->
+      <!-- end  nav -->
+      
+    </footer>
+
+
+
+  
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

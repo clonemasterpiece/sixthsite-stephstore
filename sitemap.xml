@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://stephstore.000webhostapp.com</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.93</priority>
+		<lastmod>2019-03-13</lastmod>
+
+	</url>
+	<url>
+		<loc>https://stephstore.000webhostapp.com/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.92</priority>
+		<lastmod>2019-03-13</lastmod>
+
+	</url>
+    	<url>
+		<loc>https://stephstore.000webhostapp.com/author.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+		<lastmod>2019-03-13</lastmod>
+
+	</url>
+	<url>
+		<loc>https://stephstore.000webhostapp.com/cart.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.86</priority>
+		<lastmod>2019-03-13</lastmod>
+
+	</url>
+	
+</urlset>

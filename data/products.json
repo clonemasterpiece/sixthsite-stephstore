@@ -1,0 +1,185 @@
+[
+    {
+        "id" : 1,
+        "category":
+            {
+                "id": 1,
+                "name": "burger"
+            },
+        "name" : "Burger Classic",
+        "price" : 249,
+        "picture" : {
+            "src" : "img/burger-1.jpg",
+            "alt" : "BurgerKing"
+        }
+        
+    },
+    {
+        "id" : 2,
+        "category":
+            {
+                "id": 1,
+                "name": "burger"
+            },
+        "name" : "Burger double",
+        "price" : 299,
+        "picture" : {
+            "src" : "img/burger-2.jpg",
+            "alt" : "burger2"
+        }
+        
+    },
+    {
+        "id" : 3,
+        "category":
+            {
+                "id": 1,
+                "name": "burger"
+            },
+        "name" : "Chicken Classic",
+        "price" : 279,
+        "picture" : {
+            "src" : "img/burger-3.png",
+            "alt" : "chickenc"
+        }
+        
+    },
+    {
+        "id" : 4,
+        "category":
+            {
+                "id": 1,
+                "name": "burger"
+            },
+        "name" : "Double Chicken ",
+        "price" : 319,
+        "picture" : {
+            "src" : "img/burger-4.jpg",
+            "alt" : "doubleChicken"
+        }
+        
+    },
+    {
+        "id" : 5,
+        "category":
+            {
+                "id": 1,
+                "name": "burger"
+            },
+        "name" : "Burger Classic",
+        "price" : 200,
+        "picture" : {
+            "src" : "img/burger-1.jpg",
+            "alt" : "BurgerKing"
+        }
+        
+    },
+    {
+        "id" : 6,
+        "category":
+            {
+                "id": 2,
+                "name": "hotdog"
+            },
+        "name" : "PulledPork hotdog",
+        "price" : 149,
+        "picture" : {
+            "src" : "img/hotdog-1.jpg",
+            "alt" : "hottie1"
+        }
+        
+    },
+    {
+        "id" : 7,
+        "category":
+            {
+                "id": 2,
+                "name": "hotdog"
+            },
+        "name" : "Cheese Doggie",
+        "price" : 239,
+        "picture" : {
+            "src" : "img/hotdog-2.jpg",
+            "alt" : "hotcheese"
+        }
+        
+    },
+    {
+        "id" : 8,
+        "category":
+            {
+                "id": 2,
+                "name": "hotdog"
+            },
+        "name" : "NewYork hotdog",
+        "price" : 229,
+        "picture" : {
+            "src" : "img/hotdog-3.jpg",
+            "alt" : "nydog"
+        }
+        
+    },
+    {
+        "id" : 9,
+        "category":
+            {
+                "id": 2,
+                "name": "hotdog"
+            },
+        "name" : "Classic hotdog",
+        "price" : 149,
+        "picture" : {
+            "src" : "img/hotdog-4.jpg",
+            "alt" : "classyccc"
+        }
+        
+    },
+    {
+        "id" : 10,
+        "category":
+            {
+                "id": 3,
+                "name": "gyros"
+            },
+        "name" : "Classic gyros",
+        "price" : 189,
+        "picture" : {
+            "src" : "img/gyros-1.jpg",
+            "alt" : "greegyros"
+        }
+        
+    },
+    {
+        "id" : 11,
+        "category":
+            {
+                "id": 3,
+                "name": "gyros"
+            },
+        "name" : "Chicken Gyros",
+        "price" : 200,
+        "picture" : {
+            "src" : "img/gyros-2.jpg",
+            "alt" : "chickengreek"
+        }
+        
+    },
+    {
+        "id" : 12,
+        "category":
+            {
+                "id": 3,
+                "name": "gyros"
+            },
+        "name" : "Special Gyros",
+        "price" : 399,
+        "picture" : {
+            "src" : "img/gyros-3.jpeg",
+            "alt" : "gyrosplate"
+        }
+        
+    }
+
+   
+]
+
